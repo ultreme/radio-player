@@ -1,5 +1,5 @@
-radio-m1ch3l-player-demo
-========================
+Radio M1ch3l Player
+===================
 
 The official Radio-M1ch3l html5 player.
 
