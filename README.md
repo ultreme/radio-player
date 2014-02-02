@@ -1,7 +1,7 @@
 Radio M1ch3l Player
 ===================
 
-<img src="http://episeclab.github.com/radio-m1ch3l-player-demo/george%20-%20Screen%20Shot%202013-02-12%20at%2011.35.05%20AM.png" width="400" />
+<img src="https://raw2.github.com/m1ch3l/radio-player/master/screenshot.png" width="400" />
 
 The official Radio-M1ch3l html5 player.
 
@@ -10,8 +10,8 @@ Because we love demos :)
 Links
 -----
 
-- [Production (vik.io)](http://vik.io/radio.html)
-- [Up to date (htmlpreview.github.com)](http://htmlpreview.github.com/?https://github.com/episeclab/radio-m1ch3l-player-demo/blob/master/radio.html)
+- [Production (radio.m1ch3l.biz)](http://radio.m1ch3l.biz/)
+- [Up to date (htmlpreview.github.com)](http://htmlpreview.github.com/?https://github.com/m1ch3l/radio-player/blob/master/radio.html)
 
 License
 -------
