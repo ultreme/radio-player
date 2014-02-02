@@ -83,7 +83,8 @@ canvas{width:100%;height:90%}
 		  ];
 
 	function init(){
-		canvas  = new canvas(320, 210,"main");
+	        var width=640, height=210;
+		canvas  = new canvas(width, height, "main");
 		font.initTile(32,32,32);
 		scrolltext = new scrolltext_horizontal();
 		scrolltext.scrtxt="RADIO M1CH3L              ";
@@ -95,8 +96,8 @@ canvas{width:100%;height:90%}
 		starfield = starfield3D(canvas, 
 			  200, //numStars
 			  1, //speed
-			  320, //width
-			  210, //height
+			  width, //width
+			  height, //height
 			  10, //center x,
 			  this.height/2, //center y
 			  '#FFF', //color
