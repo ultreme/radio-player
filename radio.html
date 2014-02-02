@@ -4,6 +4,9 @@
 <style>
 *{margin: 0; padding 0;}
 body{background-color: #000; text-align: center;}
+html,body{width:100%;height:100%;overflow:hidden;}
+canvas{width:100%;height:90%}
+#controls{position:absolute; right: 0; bottom:0; width: 300px; height: 200px; display: block}
 </style>
 <script src="codef_core.js"></script> 
 <script src="codef_starfield.js"></script> 
@@ -119,9 +122,14 @@ body{background-color: #000; text-align: center;}
 <body onload="init();">
 <div id="main"></div>
     <img id="loader" src="loader.gif"><br/>
-    <audio autoload="true" autoplay="true" controls>
-      <source src="http://88.190.241.57:8000/m1ch3l-128.mp3">
-      <source src="http://212.83.158.125:8000/m1ch3l-128.mp3">
-    </audio>
+    <div id="controls">
+      <audio autoload="true" autoplay="true" controls>
+	<source src="http://88.190.241.57:8000/m1ch3l-128.mp3">
+	  <source src="http://212.83.158.125:8000/m1ch3l-128.mp3">
+      </audio>
+      <a href="playlist.m3u">
+	<img src="play.png" />
+      </a>
+    </div>
 </body>
 </html>
