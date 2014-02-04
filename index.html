@@ -8,14 +8,14 @@ html,body{width:100%;height:100%;overflow:hidden;}
 canvas{width:100%;height:90%}
 #controls{position:absolute; right: 0; bottom:0; width: 300px; height: 200px; display: block}
 </style>
-<script src="codef_core.js"></script> 
-<script src="codef_starfield.js"></script> 
-<script src="codef_scrolltext.js"></script> 
-<script src="codef_3d.js"></script>
+<script src="assets/codef_core.js"></script> 
+<script src="assets/codef_starfield.js"></script> 
+<script src="assets/codef_scrolltext.js"></script> 
+<script src="assets/codef_3d.js"></script>
 <script> 
 	var canvas, starfield, scrolltext, s3d;
-	var font = new image('font2.png');
-	var scanline = new image('scanline.png');
+	var font = new image('assets/font2.png');
+	var scanline = new image('assets/scanline.png');
   var scrollparam=[{myvalue: 0, amp: 30, inc:0.2, offset: -0.04}];
 	var obj = new Array();
 	var objvert = new Array();
@@ -122,14 +122,14 @@ canvas{width:100%;height:90%}
 </head>
 <body onload="init();">
 <div id="main"></div>
-    <img id="loader" src="loader.gif"><br/>
+    <img id="loader" src="assets/loader.gif"><br/>
     <div id="controls">
       <audio autoload="true" autoplay="true" controls>
 	<source src="http://88.190.241.57:8000/m1ch3l-128.mp3">
 	  <source src="http://212.83.158.125:8000/m1ch3l-128.mp3">
       </audio>
       <a href="playlist.m3u">
-	<img src="play.png" />
+	<img src="assets/play.png" />
       </a>
     </div>
 </body>
