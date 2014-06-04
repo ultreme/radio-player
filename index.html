@@ -121,6 +121,14 @@ canvas{width:100%;height:90%}
 </script>
 </head>
 <body onload="init();">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=733861740009782&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="main"></div>
     <img id="loader" src="assets/loader.gif"><br/>
     <div id="controls">
@@ -136,7 +144,7 @@ canvas{width:100%;height:90%}
     <a href="https://github.com/m1ch3l/radio-player" target="_blank">
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
     </a>
-
+<div class="fb-comments" data-href="http://radio.m1ch3l.biz" data-numposts="10" data-colorscheme="dark"></div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
