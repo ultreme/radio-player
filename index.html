@@ -8,11 +8,11 @@ html,body{width:100%;height:100%;overflow:hidden;}
 canvas{width:100%;height:90%}
 #controls{position:absolute; right: 0; bottom:0; width: 300px; height: 200px; display: block}
 </style>
-<script src="assets/codef_core.js"></script> 
-<script src="assets/codef_starfield.js"></script> 
-<script src="assets/codef_scrolltext.js"></script> 
+<script src="assets/codef_core.js"></script>
+<script src="assets/codef_starfield.js"></script>
+<script src="assets/codef_scrolltext.js"></script>
 <script src="assets/codef_3d.js"></script>
-<script> 
+<script>
 	var canvas, starfield, scrolltext, s3d;
 	var font = new image('assets/font2.png');
 	var scanline = new image('assets/scanline.png');
@@ -39,8 +39,8 @@ canvas{width:100%;height:90%}
 			{x:-2, y:-2, z:-2},
 			{x:-2, y:2, z:-2}, //2nd cube
 		   ];
-		   
-	obj=[ 
+
+	obj=[
 			{p1:0, p2:1},
 			{p1:1, p2:2},
 			{p1:2, p2:3},
@@ -55,7 +55,7 @@ canvas{width:100%;height:90%}
 			{p1:1, p2:5},
 			{p1:2, p2:6},
 			{p1:3, p2:7}, //1st cube sides
-			
+
 			{p1:8, p2:9},
 			{p1:9, p2:10},
 			{p1:10, p2:11},
@@ -70,7 +70,7 @@ canvas{width:100%;height:90%}
 			{p1:9, p2:13},
 			{p1:10, p2:14},
 			{p1:11, p2:15}, //2st cube sides
-			
+
 			{p1:0, p2:8},
 			{p1:1, p2:9},
 			{p1:2, p2:10},
@@ -93,7 +93,7 @@ canvas{width:100%;height:90%}
 		s3d=new codef3D(canvas, 20, 20, 2, 50 );
 		s3d.lines(objvert, obj, new LineBasicMaterial({ color: 0x00ffff, linewidth:2}));
 
-		starfield = starfield3D(canvas, 
+		starfield = starfield3D(canvas,
 			  200, //numStars
 			  1, //speed
 			  width, //width
@@ -126,7 +126,7 @@ canvas{width:100%;height:90%}
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=733861740009782&version=v2.0";
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=733861740009782&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="main"></div>
@@ -144,7 +144,7 @@ canvas{width:100%;height:90%}
     <a href="https://github.com/m1ch3l/radio-player" target="_blank">
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
     </a>
-<div class="fb-comments" data-href="http://radio.m1ch3l.biz" data-numposts="10" data-colorscheme="dark"></div>
+<div class="fb-comments" data-href="http://radio.m1ch3l.biz" data-numposts="5" data-colorscheme="dark"></div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
