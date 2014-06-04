@@ -1,13 +1,18 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
+<meta property="og:image" content="https://camo.githubusercontent.com/fc70a23a27354026801f13c74cfa7ace824b4b88/68747470733a2f2f726177322e6769746875622e636f6d2f6d316368336c2f726164696f2d706c617965722f6d61737465722f6173736574732f73637265656e73686f742e706e67"/>
+<meta property="og:image:secure_url" content="https://camo.githubusercontent.com/fc70a23a27354026801f13c74cfa7ace824b4b88/68747470733a2f2f726177322e6769746875622e636f6d2f6d316368336c2f726164696f2d706c617965722f6d61737465722f6173736574732f73637265656e73686f742e706e67"/>
 <style>
 *{margin: 0; padding 0;}
 body{background-color: #000; text-align: center;}
 html,body{width:100%;height:100%;overflow:hidden;}
 canvas{width:100%;height:90%}
-#controls{position:absolute; right: 0; bottom:0; width: 300px; height: 200px; display: block}
+#controls{position:absolute; right: 0; bottom:0; width: 300px; height: 200px; display: block; z-index: 100}
 </style>
+
 <script src="assets/codef_core.js"></script>
 <script src="assets/codef_starfield.js"></script>
 <script src="assets/codef_scrolltext.js"></script>
@@ -129,6 +134,7 @@ canvas{width:100%;height:90%}
   js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=733861740009782&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<div>
 <div id="main"></div>
     <img id="loader" src="assets/loader.gif"><br/>
     <div id="controls">
@@ -144,7 +150,21 @@ canvas{width:100%;height:90%}
     <a href="https://github.com/m1ch3l/radio-player" target="_blank">
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
     </a>
-<div class="fb-comments" data-href="http://radio.m1ch3l.biz" data-numposts="5" data-colorscheme="dark"></div>
+</div>
+<table style="width: 550px; margin: auto;">
+<tr>
+<td>
+<div style="height: 80px; width: 550px; margin: auto">
+  <div class="fb-like" data-href="https://www.facebook.com/super.m1ch3l" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark" data-width="100%"></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="fb-comments" data-href="http://radio.m1ch3l.biz" data-numposts="5" data-colorscheme="dark" data-order-by="reverse_time"></div>
+</td>
+</tr>
+</table>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
